@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LS11Native">
+      <UniqueIdentifier>{8991460c-1f96-4420-857e-da3b3b8ac6f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LS11Native\ヘッダーファイル">
+      <UniqueIdentifier>{80c39fe1-322d-4833-9fdb-42e2b876b12f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LS11Native\ソースファイル">
+      <UniqueIdentifier>{be5aa018-1bd0-4658-973a-c78977c5e40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="LS11DotNet">
+      <UniqueIdentifier>{c3f20673-67e5-46a0-9473-eb61a7de7310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LS11DotNet\ソースファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="LS11DotNet\ヘッダーファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Native\ls11_decode.cpp">
+      <Filter>LS11Native\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_decodePack.cpp">
+      <Filter>LS11Native\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_encode.cpp">
+      <Filter>LS11Native\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_encodePack.cpp">
+      <Filter>LS11Native\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_getFileData.cpp">
+      <Filter>LS11Native\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_joinData.cpp">
+      <Filter>LS11Native\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_outFileData.cpp">
+      <Filter>LS11Native\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_splitData.cpp">
+      <Filter>LS11Native\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>LS11DotNet\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="LS11DotNet.cpp">
+      <Filter>LS11DotNet\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>LS11DotNet\ソースファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Native\ls11_lib.h">
+      <Filter>LS11Native\ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Native\ls11_mod.h">
+      <Filter>LS11Native\ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="LS11DotNet.h">
+      <Filter>LS11DotNet\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>LS11DotNet\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>LS11DotNet\ヘッダーファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
